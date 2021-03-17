@@ -1,7 +1,7 @@
 import React from 'react';
 import * as emailjs from 'emailjs-com';
 
-import { Field, Label, Control, Input, Button, Icon, Textarea, Notification } from 'rbx';
+import { Field, Label, Control, Input, Button, Textarea } from 'rbx';
 
 class ContactFormTest2 extends React.PureComponent {
   constructor(props) {

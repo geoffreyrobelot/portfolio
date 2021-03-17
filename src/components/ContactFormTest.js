@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 import * as emailjs from 'emailjs-com';
 
 class ContactFormTest extends React.Component {
@@ -42,20 +41,6 @@ class ContactFormTest extends React.Component {
       resetForm(){
         this.setState({name: "", company:"", phone:"", email: "", message: ""})
       }
-      
-      //   axios({
-      //     method: "POST", 
-      //     url:"http://localhost:3000/contact", 
-      //     data:  this.state
-      //   }).then((response)=>{
-      //     if (response.data.status === 'success') {
-      //       alert("Message envoyé"); 
-      //       this.resetForm()
-      //     } else if(response.data.status === 'fail') {
-      //       alert("Votre message n'a pas pu être envoyé")
-      //     }
-      //   })
-      // }
 
      render() {
        const { name, company, phone, email, message } = this.state;

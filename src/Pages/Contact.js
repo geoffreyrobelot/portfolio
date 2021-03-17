@@ -3,9 +3,7 @@ import ButtonsBottom from '../components/ButtonsBottom';
 import Navigation from '../components/Navigation';
 import Logo from '../components/Logo';
 import SocialNetwork from '../components/SocialNetwork';
-import ContactForm from '../components/ContactForm';
 import ContactFormTest from '../components/ContactFormTest';
-import ContactFormTest2 from '../components/ContactFormTest2';
 
 
 function Contact() {
