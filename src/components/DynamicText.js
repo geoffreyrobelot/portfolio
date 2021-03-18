@@ -48,7 +48,7 @@ function DynamicText() {
 
     return (
         <span className='dynamic-text'>
-            <span className='simply'></span>
+            <span className='simply'>:</span>
             <span id='text-target'></span>
         </span>
     )
