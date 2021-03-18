@@ -5,7 +5,7 @@ function SocialNetwork() {
     return (
         <div className='social-network'>
             <ul className='content'>
-                <a href='https://www.facebook.com' target='_blank'
+                <a href='https://www.facebook.com/geoffrey.robelot' target='_blank'
                     rel='noopener noreferrer' className='hover'>
                     <li><i className='fab fa-facebook-f'></i></li>
                 </a>
@@ -15,12 +15,12 @@ function SocialNetwork() {
                     <li><i className='fab fa-twitter'></i></li>
                 </a>
 
-                <a href='https://www.instagram.com' target='_blank'
+                <a href='https://www.instagram.com/geoffrey_robelot/' target='_blank'
                     rel='noopener noreferrer' className='hover'>
                     <li><i className='fab fa-instagram'></i></li>
                 </a>
 
-                <a href='https://www.linkedin.com' target='_blank'
+                <a href='https://www.linkedin.com/in/geoffrey-robelot-a491b21b7/' target='_blank'
                     rel='noopener noreferrer' className='hover'>
                     <li><i className='fab fa-linkedin'></i></li>
                 </a>
