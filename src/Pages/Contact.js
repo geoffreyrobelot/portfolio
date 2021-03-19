@@ -3,7 +3,7 @@ import ButtonsBottom from '../components/ButtonsBottom';
 import Navigation from '../components/Navigation';
 import Logo from '../components/Logo';
 import SocialNetwork from '../components/SocialNetwork';
-import ContactFormTest from '../components/ContactFormTest';
+import ContactForm from '../components/ContactForm';
 
 
 function Contact() {
@@ -12,7 +12,7 @@ function Contact() {
             <div className='contact'>
                 <Navigation />
                 <Logo />
-                <ContactFormTest />
+                <ContactForm />
                 <div className='contact-infos'>
                     <div className='address'>
                         <div className='content'>
@@ -25,11 +25,6 @@ function Contact() {
                         <div className='content'>
                             <h4>Téléphone</h4>
                             <p>06 61 86 23 31</p>
-                            {/* <CopyToClipboard text='0661862331' className='hover'>
-                            <p style={{ cursor: 'pointer' }} className='clipboard' onClick={() => {
-                                alert('Numéro de téléphone copié');
-                            }}></p>
-                        </CopyToClipboard> */}
                         </div>
                     </div>
                     <div className='email'>

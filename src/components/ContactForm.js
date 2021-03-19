@@ -37,6 +37,7 @@ const ContactForm = () => {
     if (name && isEmail() && message) {
 
       const templateId = "template_fw7q14v";
+      
 
       nameS.classList.remove('red');
       emailS.classList.remove('red');
@@ -49,6 +50,7 @@ const ContactForm = () => {
         email,
         message,
       });
+
     } else {
       formMess.innerHTML = 'Merci de remplir correctement les champs requis *';
       formMess.style.background = 'rgb(253, 87, 87)';
@@ -66,11 +68,20 @@ const ContactForm = () => {
     }
   };
 
-  const sendFeedback = (templateId, variables) => {
+  const sendFeedback = (templateId) => {
     let formMess = document.querySelector('.form-message');
 
+    const templateParams = {from_name: name,
+      from_company: company,
+      from_phone: phone,
+      from_email: email,
+      to_name: 'Geoffrey',
+      message_html: message}
+
+    const userID = 'user_kLDbFzq1nboup8oZ3wq9d';
+
     window.emailjs
-      .send('gmail', templateId, variables)
+      .send('gmail', templateId, templateParams, userID)
       .then((res) => {
         formMess.innerHTML =
           'Message envoyé ! Je reviens vers vous très rapidement';

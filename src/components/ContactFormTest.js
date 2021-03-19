@@ -38,9 +38,9 @@ class ContactFormTest extends React.Component {
         this.resetForm();
       };
 
-      resetForm(){
-        this.setState({name: "", company:"", phone:"", email: "", message: ""})
-      }
+      // resetForm(){
+      //   this.setState({name: "", company:"", phone:"", email: "", message: ""})
+      // }
 
      render() {
        const { name, company, phone, email, message } = this.state;
@@ -60,7 +60,7 @@ class ContactFormTest extends React.Component {
 
             <input className="button hover" type="submit" value="Envoyer" />
         </form>
-    );
+    ); 
 }
 
 
