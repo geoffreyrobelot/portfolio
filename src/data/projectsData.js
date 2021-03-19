@@ -15,7 +15,7 @@ export const projectsData = [
     date: "Février 2020",
     languages: ["Java", "Sql", "UML"],
     infos:
-      "Simulateur de parking. Partie simulateur et partie contrôle d'accès. Projet sur Github",
+      "Simulateur et contrôle d'accès à un parking :  Projet sur Github",
     img: "./assets/img/parking.png",
     link: "https://github.com/geoffreyrobelot/Parking",
   },
