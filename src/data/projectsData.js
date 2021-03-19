@@ -15,7 +15,7 @@ export const projectsData = [
     date: "Février 2020",
     languages: ["Java", "Sql", "UML"],
     infos:
-      "Simulateur de parking. L'application comporte 2 parties distinctes : Une partie simulateur et une partie contrôle d'accès au parking. Vous pouvez prendre connaissance de ce projet depuis Github",
+      "Simulateur de parking. Partie simulateur et partie contrôle d'accès. Projet sur Github",
     img: "./assets/img/parking.png",
     link: "https://github.com/geoffreyrobelot/Parking",
   },
@@ -25,7 +25,7 @@ export const projectsData = [
     date: "Janvier 2020",
     languages: ["Java"],
     infos:
-      "Application de gestion de bibliothèque : Elle permet d'ajouter des auteurs et pour chacun leur(s) livre(s) associé(s). Des fonctions comme le prêt de livre ou la génération de QRCode sont disponibles. ",
+      "Application de gestion de bibliothèque : Elle permet d'ajouter des auteurs et pour chacun leur(s) livre(s) associé(s).",
     img: "./assets/img/bibli.png",
     link: "https://github.com/geoffreyrobelot/Bibliotheque",
   },
