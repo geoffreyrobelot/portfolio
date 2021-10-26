@@ -109,6 +109,8 @@ const ContactForm = () => {
   };
 
   return (
+<>
+
     <form className='contact-form'>
       <h2>Contact</h2>
       <div className='form-content'>
@@ -166,6 +168,9 @@ const ContactForm = () => {
       />
       <div className='form-message'></div>
     </form>
+    
+</>
+
   );
 };
 

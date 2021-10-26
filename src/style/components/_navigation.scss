@@ -62,7 +62,7 @@
       position: absolute;
       visibility: hidden;
       opacity: 0;
-      padding: 0 40px;
+      padding: 0px 40px;
       margin-left: 2rem;
       width: 300px;
       transform: translateX(70px);
@@ -75,5 +75,24 @@
         transition: .3s;
       }
     }
+
+    .nav-formation {
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      padding: 0px 40px;
+      margin-left: 2rem;
+      width: 300px;
+      transform: translateX(70px);
+      transition: .3s ;
+      perspective: 500px;
+
+      li {
+        transform: rotatey(30deg) scaleX(1.2);
+        transform-origin: center;
+        transition: .3s;
+      }
+    }
+
   }
 }

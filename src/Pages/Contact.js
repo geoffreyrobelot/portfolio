@@ -35,10 +35,10 @@ function Contact() {
                     </div>
                     <SocialNetwork />
                     <div className='credits'>
-                        <p>&copy; 2021 - www.geoffreyrobelot.com</p>
+                        <p>&copy; 2021 - monsite.com</p>
                     </div>
                 </div>
-                <ButtonsBottom left={'/project-4'} />
+                <ButtonsBottom left={'/formation-4'} />
             </div>
         </main>
     )

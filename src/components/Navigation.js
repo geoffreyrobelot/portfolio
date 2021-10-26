@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Navigation() {
+
     return (
         <div className='navigation'>
             <ul>
@@ -22,6 +23,22 @@ function Navigation() {
                         </NavLink>
                         <NavLink to='/project-4' activeClassName='nav-active' className='hover'>
                             <li>Portfolio</li>
+                        </NavLink>
+                    </ul>
+                </li>
+                <li className='nav-portfolio'>Formations
+                    <ul className='nav-projects'>
+                        <NavLink to='/formation-1' activeClassName='nav-active' className='hover'>
+                            <li>DUT MMI</li>
+                        </NavLink>
+                        <NavLink to='/formation-2' activeClassName='nav-active' className='hover'>
+                            <li>BTS Diététique</li>
+                        </NavLink>
+                        <NavLink to='/formation-3' activeClassName='nav-active' className='hover'>
+                            <li>Développeur App</li>
+                        </NavLink>
+                        <NavLink to='/formation-4' activeClassName='nav-active' className='hover'>
+                            <li>Développeur Web</li>
                         </NavLink>
                     </ul>
                 </li>
